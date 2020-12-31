@@ -1,0 +1,37 @@
+<?php echo '<script src="assets/js/shizzo.js"></script>'; ?>
+
+<?php echo '
+<template>
+    <b-navbar class="is-dark">
+        <template slot="brand">
+            <b-navbar-item>
+                <img src="assets/img/logo-text.png">
+            </b-navbar-item>
+        </template>
+        <template slot="start">
+            <b-navbar-item href="index.php">Home</b-navbar-item>
+            <b-navbar-item href="#">Store</b-navbar-item>
+            <b-navbar-item href="download.php">Download</b-navbar-item>
+            <b-navbar-item href="#">Terms of Service</b-navbar-item>
+            <b-navbar-dropdown label="Socials">
+                <b-navbar-item href="#">Discord</b-navbar-item>
+                <b-navbar-item href="#">Youtube</b-navbar-item>
+                <b-navbar-item href="#">Twitter</b-navbar-item>
+            </b-navbar-dropdown>
+        </template>
+        <template slot="end">
+            <b-navbar-item tag="div">
+                <div class="buttons">
+                    <a class="button is-primary" href="signup.php"><strong>Sign up</strong>
+                    </a>
+                    <a class="button is-primary" href="login.php"><strong>Login</strong>
+                    </a>
+                </div>
+            </b-navbar-item>
+        </template>
+    </b-navbar>
+</template>'; ?>
+
+<?php include 'modal.php'; ?>
+
+<?php // echo '<b-notification type="is-success" aria-close-label="Close notification">We have a <b>Discord Server</b>, <a href="#" target="_blank">click here to join!</a></b-notification>'; ?>
