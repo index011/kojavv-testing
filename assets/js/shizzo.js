@@ -8,7 +8,3 @@ function modal(title, body, btn){
 function hideModal(){
   document.getElementById('page_dialog').style.visibility= 'hidden';
 }
-
-$(function(){
-  $("#nav-placeholder").load("nav.html");
-});
