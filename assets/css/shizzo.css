@@ -1,0 +1,94 @@
+body, html {
+  background: #0d0d0d;
+}
+
+nav {
+  margin-bottom: 50px;
+}
+
+.shizzo-header nav {
+  margin-bottom: 0px;
+}
+
+#page_dialog {
+  visibility: hidden;
+}
+
+.card img {
+  padding: 1rem;
+  border-radius: 100px;
+  background: #ffe7e7;
+}
+
+.hero.is-dark {
+  background: #1a1a1a;
+}
+
+.navbar.is-dark {
+  background-color: #1a1a1a !important;
+}
+
+.navbar-menu.is-active {
+  background-color: #1a1a1a !important;
+  color: #fff !important;
+}
+
+.modal-card-head, .modal-card-title {
+  background: #1a1a1a;
+  border-color: #1a1a1a;
+  color: #fff;
+}
+
+.modal-card-body {
+  background: #242424;
+  color: #fff;
+}
+
+.modal-card-foot {
+  background: #1a1a1a;
+  border-color: #1a1a1a;
+  color: #fff;
+}
+
+.hero.is-primary.is-bold.shizzo-page-header {
+  background-color: #242424;
+  background-image: none !important;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#page p, #page .title, #page .subtitle, #page * {
+  color: #fff;
+}
+
+#page .card {
+  background: #1a1a1a;
+}
+
+#page .card .card {
+  background: #0d0d0d;
+}
+
+.card .card-header-title {
+  background: #242424;
+}
+
+#page a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+input, input:hover, input:focus {
+  background: #1a1a1a;
+  border-color: #1a1a1a
+}
+
+.card input, .card input:hover, .card input:focus {
+  background: #242424;
+  border-color: #242424;
+}
+
+.button.is-primary, .button.is-primary:hover {
+  background: #3BC1C3;
+  color: #fff !important;
+}l
